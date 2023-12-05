@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "indent": ["error", 2], // 4 whitespace indent
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": [2, { "ignore": ["className"] }] // https://github.com/shadcn-ui/ui/issues/120
+  }
+}
